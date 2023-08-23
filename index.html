@@ -11,25 +11,30 @@
 
 <body>
     <h1>BEM Wars</h1>
-    <div class="container">
-        <div>
-            <h2>The Dark Side</h2>
-            <img src="./images/vader.jpeg">
-            <p>Nesting!</p>
-            <p>Conflict!</p>
-            <p>Specificity Wars!</p>
-            <p>Cookies</p>
+    <div class="flex-container">
+        <div class="card card--light flex-item">
+            <h2 class="card__title">The Force</h2>
+            <img src="./images/yoda.jpeg" class="card__image">
+            <div class="card__content">
+                <p>Love</p>
+                <p>Beauty</p>
+                <p>CSS that Scales!</p>
+                <p>Great warrior. Wars not make one great!</p>
+            </div>
         </div>
 
-        <div>
-            <h2>The Force</h2>
-            <img src="./images/yoda.jpeg">
-            <p>Love</p>
-            <p>Beauty</p>
-            <p>CSS that Scales!</p>
-            <p>Great warrior. Wars not make one great!</p>
+        <div class="card card--dark flex-item">
+            <h2 class="card__title">The Dark Side</h2>
+            <img src="./images/vader.jpeg" class="card__image">
+            <div class="card__content">
+                <p>Nesting!</p>
+                <p>Conflict!</p>
+                <p>Specificity Wars!</p>
+                <p>Cookies</p>
+            </div>
         </div>
-    </div>
+
+        
 </body>
 
 </html>
