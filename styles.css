@@ -1,3 +1,16 @@
+body {
+    background: url('https://i.imgur.com/QlCwnBk.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+}
+
 .flex-container {
     display: flex;
     justify-content: space-between;
@@ -21,7 +34,6 @@
     box-shadow: 0 0 20px 15px blue;
 }
 
-
 .card--dark {
     background-color: #333;
     color: #fff;
@@ -36,16 +48,13 @@
     font-weight: bold;
 }
 
-
 .card__image {
     max-width: 100%;
 }
 
-
 .card__content {
     margin-top: 10px;
 }
-
 
 .card__content p {
     margin-bottom: 5px;
